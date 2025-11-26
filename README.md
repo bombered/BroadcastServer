@@ -6,4 +6,9 @@
 - Javascript
 
 ### How to run
-git clone
+```
+- git clone
+```
+
+- broadcast-server start - This command will start the server.
+- broadcast-server connect - This command will connect the client to the server.
