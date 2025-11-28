@@ -26,6 +26,7 @@ const startServer = () => {
 
         ws.on('close', () => {
             activeConnections.delete(ws);
+            console.log(`Connection closed: ${username}`);
             server.clients.forEach(function each(client) {
                 client.send(`Connection closed: ${username}`);
             });

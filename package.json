@@ -3,6 +3,6 @@
     "ws": "^8.18.3"
   },
   "type": "module",
-  "main": "broadcast.js",
-  "name": "broadcast"
+  "main": "broadcast-server.js",
+  "name": "broadcast-server"
 }

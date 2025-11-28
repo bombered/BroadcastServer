@@ -7,9 +7,20 @@
 - readline
 
 ### How to run
+- clone the reposirtory and go inside it
 ```
-git clone 
+git clone https://github.com/bombered/BroadcastServer.git
+cd BroadcastServer
 ```
-
-- broadcast-server start - This command will start the server.
-- broadcast-server connect - This command will connect the client to the server.
+- Install dependencies
+```
+npm install
+```
+- This command will start the server.
+```
+node broadcast-server start 
+```
+- This command will connect the client to the server.
+```
+node broadcast-server connect 
+```
