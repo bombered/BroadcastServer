@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "ws": "^8.18.3"
+  },
+  "type": "module",
+  "main": "broadcast.js",
+  "name": "broadcast"
+}

@@ -3,11 +3,12 @@
 
 ### Technical Details
 - Node.js
-- Javascript
+- ws
+- readline
 
 ### How to run
 ```
-- git clone
+git clone 
 ```
 
 - broadcast-server start - This command will start the server.
